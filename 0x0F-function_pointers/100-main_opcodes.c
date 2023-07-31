@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main -  prints its own opcodes
- * @argc: number of arguments.
- * @argv: array of arguments
+ * main - prints its own opcodes.
+ * @argc: Number of arguments.
+ * @argv: Array of arguments.
  *
  * Return: Always 0 (Success)
  */
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(2);
 	}
- 
+
 	arr = (char *)main;
 
 	for (i = 0; i < bytes; i++)
